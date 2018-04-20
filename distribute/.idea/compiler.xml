@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-client" />
+        <module name="eureka-server" />
+        <module name="evi-common-base" />
+        <module name="evi-component" />
+        <module name="evi-dal" />
+        <module name="evi-dal-wrapper" />
+        <module name="evi-issue" />
+        <module name="evi-issue-admin" />
+        <module name="evi-issue-common" />
+        <module name="evi-issue-ereport" />
+        <module name="evi-issue-notary" />
+        <module name="evi-issue-pdf" />
+        <module name="evi-issue-report-data" />
+        <module name="evi-issue-union" />
+        <module name="evi-pdfsign" />
+        <module name="evi-service-base" />
+        <module name="evi-service-common" />
+        <module name="evi-service-network" />
+        <module name="feign" />
+        <module name="ribbon" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.7">
+      <module name="distribute" target="1.7" />
+      <module name="eureka-client" target="1.6" />
+      <module name="eureka-server" target="1.6" />
+      <module name="evi-common-base" target="1.8" />
+      <module name="evi-component" target="1.6" />
+      <module name="evi-dal" target="1.6" />
+      <module name="evi-dal-wrapper" target="1.6" />
+      <module name="evi-issue" target="1.8" />
+      <module name="evi-issue-admin" target="1.6" />
+      <module name="evi-issue-common" target="1.6" />
+      <module name="evi-issue-ereport" target="1.6" />
+      <module name="evi-issue-notary" target="1.7" />
+      <module name="evi-issue-pdf" target="1.6" />
+      <module name="evi-issue-report-data" target="1.8" />
+      <module name="evi-issue-union" target="1.7" />
+      <module name="evi-manage" target="1.6" />
+      <module name="evi-pdfsign" target="1.6" />
+      <module name="evi-service-base" target="1.6" />
+      <module name="evi-service-common" target="1.6" />
+      <module name="evi-service-network" target="1.6" />
+      <module name="evi-store-parent" target="1.8" />
+      <module name="evi-web" target="1.6" />
+      <module name="feign" target="1.6" />
+      <module name="ribbon" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

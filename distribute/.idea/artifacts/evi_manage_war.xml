@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="evi-manage:war">
+    <output-path>$PROJECT_DIR$/../../evi-manage/target</output-path>
+    <root id="archive" name="evi-manage.war">
+      <element id="artifact" artifact-name="evi-manage:war exploded" />
+    </root>
+  </artifact>
+</component>

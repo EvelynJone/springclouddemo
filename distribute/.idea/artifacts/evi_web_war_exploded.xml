@@ -1,0 +1,105 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="evi-web:war exploded">
+    <output-path>$PROJECT_DIR$/../../evi-web/target/evi-web</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="evi-web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.3.9.RELEASE" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:4.3.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.3.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.3.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.3.9.RELEASE" />
+          <element id="library" level="project" name="Maven: timevale:utils:3.0.6" />
+          <element id="library" level="project" name="Maven: timevale-utils:timevale-utils-model:3.0.6" />
+          <element id="library" level="project" name="Maven: timevale-utils:timevale-utils-network:3.0.6" />
+          <element id="library" level="project" name="Maven: timevale-utils:timevale-utils-security:3.0.6" />
+          <element id="library" level="project" name="Maven: org.bouncycastle:bcprov-jdk15on:1.48" />
+          <element id="library" level="project" name="Maven: org.bouncycastle:bcpkix-jdk15on:1.48" />
+          <element id="library" level="project" name="Maven: org.bouncycastle:bcmail-jdk15on:1.48" />
+          <element id="library" level="project" name="Maven: commons-httpclient:commons-httpclient:3.1" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.2" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.5.1" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.3" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpmime:4.5.1" />
+          <element id="library" level="project" name="Maven: timevale-utils:timevale-utils-tools-ali:3.0.6" />
+          <element id="library" level="project" name="Maven: commons-configuration:commons-configuration:1.6" />
+          <element id="library" level="project" name="Maven: commons-digester:commons-digester:1.8" />
+          <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils-core:1.8.0" />
+          <element id="library" level="project" name="Maven: com.aliyun.oss:aliyun-sdk-oss:2.2.3" />
+          <element id="library" level="project" name="Maven: org.jdom:jdom:1.1" />
+          <element id="library" level="project" name="Maven: net.spy:spymemcached:2.11.7" />
+          <element id="library" level="project" name="Maven: timevale-utils:timevale-utils-cache:3.0.6" />
+          <element id="library" level="project" name="Maven: timevale-utils:timevale-utils-tools:3.0.6" />
+          <element id="library" level="project" name="Maven: org.ehcache:ehcache:3.2.0" />
+          <element id="library" level="project" name="Maven: timevale.exceptions-collector.support:support-collector:3.0.2" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/timevale/exceptions-collector/exceptions-collector-email/3.0.1-SNAPSHOT/exceptions-collector-email-3.0.1-20170531.023609-4.jar" output-file-name="exceptions-collector-email-3.0.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/timevale/exceptions-collector/exceptions-collector-esignmanage/3.0.1-SNAPSHOT/exceptions-collector-esignmanage-3.0.1-20170531.023610-4.jar" output-file-name="exceptions-collector-esignmanage-3.0.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/timevale/exceptions-collector/exceptions-collector-esignweb/3.0.1-SNAPSHOT/exceptions-collector-esignweb-3.0.1-20170531.023610-4.jar" output-file-name="exceptions-collector-esignweb-3.0.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/timevale/exceptions-collector/exceptions-collector-evidence/3.0.1-SNAPSHOT/exceptions-collector-evidence-3.0.1-20180129.041000-166.jar" output-file-name="exceptions-collector-evidence-3.0.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/timevale/exceptions-collector/exceptions-collector-itsm/3.0.1-SNAPSHOT/exceptions-collector-itsm-3.0.1-20170531.023612-5.jar" output-file-name="exceptions-collector-itsm-3.0.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/timevale/exceptions-collector/exceptions-collector-mobile/3.0.1-SNAPSHOT/exceptions-collector-mobile-3.0.1-20170531.023614-4.jar" output-file-name="exceptions-collector-mobile-3.0.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/timevale/exceptions-collector/exceptions-collector-openapi/3.0.1-SNAPSHOT/exceptions-collector-openapi-3.0.1-20170531.023615-4.jar" output-file-name="exceptions-collector-openapi-3.0.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/timevale/exceptions-collector/exceptions-collector-opensvc/3.0.1-SNAPSHOT/exceptions-collector-opensvc-3.0.1-20180119.102531-76.jar" output-file-name="exceptions-collector-opensvc-3.0.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/timevale/exceptions-collector/exceptions-collector-realname/3.0.1-SNAPSHOT/exceptions-collector-realname-3.0.1-20180124.075742-103.jar" output-file-name="exceptions-collector-realname-3.0.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/timevale/exceptions-collector/exceptions-collector-openca/3.0.1-SNAPSHOT/exceptions-collector-openca-3.0.1-20180119.102523-71.jar" output-file-name="exceptions-collector-openca-3.0.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/timevale/exceptions-collector/exceptions-collector-openras/3.0.1-SNAPSHOT/exceptions-collector-openras-3.0.1-20180119.102526-59.jar" output-file-name="exceptions-collector-openras-3.0.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/timevale/exceptions-collector/exceptions-collector-timestamp/3.0.1-SNAPSHOT/exceptions-collector-timestamp-3.0.1-20180119.102528-72.jar" output-file-name="exceptions-collector-timestamp-3.0.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/timevale/exceptions-collector/exceptions-collector-openseal/3.0.1-SNAPSHOT/exceptions-collector-openseal-3.0.1-20180119.102529-46.jar" output-file-name="exceptions-collector-openseal-3.0.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/timevale/exceptions-collector/exceptions-collector-pdf/3.0.1-SNAPSHOT/exceptions-collector-pdf-3.0.1-20170531.023617-4.jar" output-file-name="exceptions-collector-pdf-3.0.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/timevale/exceptions-collector/exceptions-collector-techopenapi/3.0.1-SNAPSHOT/exceptions-collector-techopenapi-3.0.1-20180119.102535-83.jar" output-file-name="exceptions-collector-techopenapi-3.0.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/timevale/exceptions-collector/exceptions-collector-tgtext/3.0.1-SNAPSHOT/exceptions-collector-tgtext-3.0.1-20180119.102536-67.jar" output-file-name="exceptions-collector-tgtext-3.0.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/timevale/exceptions-collector/exceptions-collector-esignpro/3.0.1-SNAPSHOT/exceptions-collector-esignpro-3.0.1-20170531.023621-4.jar" output-file-name="exceptions-collector-esignpro-3.0.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/timevale/exceptions-collector/exceptions-collector-saas/3.0.1-SNAPSHOT/exceptions-collector-saas-3.0.1-20170531.023626-2.jar" output-file-name="exceptions-collector-saas-3.0.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/timevale/exceptions-collector/exceptions-collector-paas/3.0.1-SNAPSHOT/exceptions-collector-paas-3.0.1-20170531.023626-2.jar" output-file-name="exceptions-collector-paas-3.0.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/timevale/exceptions-collector/exceptions-collector-platform/3.0.1-SNAPSHOT/exceptions-collector-platform-3.0.1-20171201.020234-9.jar" output-file-name="exceptions-collector-platform-3.0.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/timevale/exceptions-collector/exceptions-collector-platform.filesystem/3.0.1-SNAPSHOT/exceptions-collector-platform.filesystem-3.0.1-20170531.094817-1.jar" output-file-name="exceptions-collector-platform.filesystem-3.0.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/timevale/exceptions-collector/exceptions-collector-platform.account/3.0.1-SNAPSHOT/exceptions-collector-platform.account-3.0.1-20171121.063941-2.jar" output-file-name="exceptions-collector-platform.account-3.0.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/timevale/exceptions-collector/exceptions-collector-platform.oauth/3.0.1-SNAPSHOT/exceptions-collector-platform.oauth-3.0.1-20170929.023647-9.jar" output-file-name="exceptions-collector-platform.oauth-3.0.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/timevale/exceptions-collector/exceptions-collector-platform.pay/3.0.1-SNAPSHOT/exceptions-collector-platform.pay-3.0.1-20171202.210401-14.jar" output-file-name="exceptions-collector-platform.pay-3.0.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/timevale/exceptions-collector/exceptions-collector-platform.apigw/3.0.1-SNAPSHOT/exceptions-collector-platform.apigw-3.0.1-20171127.075559-1.jar" output-file-name="exceptions-collector-platform.apigw-3.0.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/timevale/exceptions-collector/exceptions-collector-platform.open/3.0.1-SNAPSHOT/exceptions-collector-platform.open-3.0.1-20171127.075607-1.jar" output-file-name="exceptions-collector-platform.open-3.0.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/timevale/exceptions-collector/exceptions-collector-platform.open-cms/3.0.1-SNAPSHOT/exceptions-collector-platform.open-cms-3.0.1-20171212.122928-3.jar" output-file-name="exceptions-collector-platform.open-cms-3.0.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/timevale/exceptions-collector/exceptions-collector-platform.open-apigw/3.0.1-SNAPSHOT/exceptions-collector-platform.open-apigw-3.0.1-20171228.020709-7.jar" output-file-name="exceptions-collector-platform.open-apigw-3.0.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/timevale/exceptions-collector/exceptions-collector-privatecloud/3.0.1-SNAPSHOT/exceptions-collector-privatecloud-3.0.1-20170531.023628-2.jar" output-file-name="exceptions-collector-privatecloud-3.0.1-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.16" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.5" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.7.5" />
+          <element id="library" level="project" name="Maven: net.sf.json-lib:json-lib:jdk15:2.4" />
+          <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.8.0" />
+          <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
+          <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.5" />
+          <element id="library" level="project" name="Maven: net.sf.ezmorph:ezmorph:1.0.6" />
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.2.4" />
+          <element id="library" level="project" name="Maven: timevale:mobile-model:3.0.6" />
+          <element id="library" level="project" name="Maven: timevale-utils:timevale-utils-basic:3.0.6" />
+          <element id="library" level="project" name="Maven: timevale.exceptions-collector:exceptions-collector-error-meta:3.0.1" />
+          <element id="library" level="project" name="Maven: cglib:cglib-nodep:3.1" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-email:1.2" />
+          <element id="library" level="project" name="Maven: javax.mail:mail:1.4.1" />
+          <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
+          <element id="library" level="project" name="Maven: javax.ws.rs:javax.ws.rs-api:2.0.1" />
+          <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.5" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:4.3.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.3.9.RELEASE" />
+          <element id="archive" name="evi-component-1.0.0-SNAPSHOT.jar">
+            <element id="module-output" name="evi-component" />
+          </element>
+          <element id="library" level="project" name="Maven: com.google.guava:guava:18.0" />
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.1.2" />
+          <element id="library" level="project" name="Maven: taglibs:standard:1.1.2" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.4" />
+          <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.3.1" />
+          <element id="library" level="project" name="Maven: com.google.code.kaptcha:kaptcha:2.3.2" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/../../evi-web/target/evi-web/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="evi-web/web/Web" />
+    </root>
+  </artifact>
+</component>

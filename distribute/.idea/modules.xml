@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/distribute.iml" filepath="$PROJECT_DIR$/distribute.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../eureka-client/eureka-client.iml" filepath="$PROJECT_DIR$/../eureka-client/eureka-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/../eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../evi-common-base/evi-common-base.iml" filepath="$PROJECT_DIR$/../../evi-common-base/evi-common-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../evi-component/evi-component.iml" filepath="$PROJECT_DIR$/../../evi-component/evi-component.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../evi-dal/evi-dal.iml" filepath="$PROJECT_DIR$/../evi-dal/evi-dal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../evi-dal-wrapper/evi-dal-wrapper.iml" filepath="$PROJECT_DIR$/../evi-dal-wrapper/evi-dal-wrapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../evi-service/evi-issue.iml" filepath="$PROJECT_DIR$/../evi-service/evi-issue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../evi-issue-admin/evi-issue-admin.iml" filepath="$PROJECT_DIR$/../evi-issue-admin/evi-issue-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../evi-issue-common/evi-issue-common.iml" filepath="$PROJECT_DIR$/../evi-issue-common/evi-issue-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../evi-issue-ereport/evi-issue-ereport.iml" filepath="$PROJECT_DIR$/../evi-issue-ereport/evi-issue-ereport.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../evi-issue-notary/evi-issue-notary.iml" filepath="$PROJECT_DIR$/../evi-issue-notary/evi-issue-notary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../evi-issue-pdf/evi-issue-pdf.iml" filepath="$PROJECT_DIR$/../evi-issue-pdf/evi-issue-pdf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../evi-issue-report-data/evi-issue-report-data.iml" filepath="$PROJECT_DIR$/../evi-issue-report-data/evi-issue-report-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../evi-issue-union/evi-issue-union.iml" filepath="$PROJECT_DIR$/../evi-issue-union/evi-issue-union.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../evi-pdfsign/evi-pdfsign.iml" filepath="$PROJECT_DIR$/../evi-pdfsign/evi-pdfsign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../evi-service-base/evi-service-base.iml" filepath="$PROJECT_DIR$/../evi-service-base/evi-service-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../evi-service-common/evi-service-common.iml" filepath="$PROJECT_DIR$/../evi-service-common/evi-service-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../evi-service-network/evi-service-network.iml" filepath="$PROJECT_DIR$/../evi-service-network/evi-service-network.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../parent/evi-store-parent.iml" filepath="$PROJECT_DIR$/../../parent/evi-store-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../feign/feign.iml" filepath="$PROJECT_DIR$/../feign/feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ribbon/ribbon.iml" filepath="$PROJECT_DIR$/../ribbon/ribbon.iml" />
+    </modules>
+  </component>
+</project>
