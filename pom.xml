@@ -18,6 +18,11 @@
         <module>eureka-server-peer1</module>
         <module>eureka-server-peer2</module>
 	</modules>
+
+    <properties>
+        <springboot.groupId>org.springframework.boot</springboot.groupId>
+        <springcloud.groupId>org.springframework.cloud</springcloud.groupId>
+    </properties>
 	
 <build>  
     <plugins>  
