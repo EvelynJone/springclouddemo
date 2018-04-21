@@ -2,6 +2,7 @@ package com.springcloddemo.config.server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.config.server.EnableConfigServer;
 
 /**
@@ -12,6 +13,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
  * 修改历史：<br/>
  * 1.[2018年04月18日上午13:08]
  */
+@EnableDiscoveryClient
 @EnableConfigServer
 @SpringBootApplication
 public class ConfigServerApplication {
