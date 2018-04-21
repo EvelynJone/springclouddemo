@@ -11,6 +11,12 @@
 		<module>/ribbon</module>
 		<module>/feign</module>
         <module>/config-server</module>
+        <module>/config-client</module>
+        <module>serviceA</module>
+        <module>serviceB</module>
+        <module>zuul</module>
+        <module>eureka-server-peer1</module>
+        <module>eureka-server-peer2</module>
 	</modules>
 	
 <build>  
