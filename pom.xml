@@ -17,6 +17,7 @@
         <module>zuul</module>
         <module>eureka-server-peer1</module>
         <module>eureka-server-peer2</module>
+        <module>consul-distributed-lock</module>
 	</modules>
 
     <properties>
