@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/config-client/config-client.iml" filepath="$PROJECT_DIR$/config-client/config-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consul-distributed-lock/consul-distributed-lock.iml" filepath="$PROJECT_DIR$/consul-distributed-lock/consul-distributed-lock.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-client/eureka-client.iml" filepath="$PROJECT_DIR$/eureka-client/eureka-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server-peer1/eureka-server-peer1.iml" filepath="$PROJECT_DIR$/eureka-server-peer1/eureka-server-peer1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server-peer2/eureka-server-peer2.iml" filepath="$PROJECT_DIR$/eureka-server-peer2/eureka-server-peer2.iml" />
       <module fileurl="file://$PROJECT_DIR$/feign/feign.iml" filepath="$PROJECT_DIR$/feign/feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/ribbon/ribbon.iml" filepath="$PROJECT_DIR$/ribbon/ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serviceA/serviceA.iml" filepath="$PROJECT_DIR$/serviceA/serviceA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serviceB/serviceB.iml" filepath="$PROJECT_DIR$/serviceB/serviceB.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springclouddemo.iml" filepath="$PROJECT_DIR$/.idea/springclouddemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul/zuul.iml" filepath="$PROJECT_DIR$/zuul/zuul.iml" />
     </modules>
   </component>
 </project>

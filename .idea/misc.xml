@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/config-client" />
     <file type="web" url="file://$PROJECT_DIR$/config-server" />
     <file type="web" url="file://$PROJECT_DIR$/eureka-client" />
     <file type="web" url="file://$PROJECT_DIR$/eureka-server" />
+    <file type="web" url="file://$PROJECT_DIR$/eureka-server-peer1" />
+    <file type="web" url="file://$PROJECT_DIR$/eureka-server-peer2" />
     <file type="web" url="file://$PROJECT_DIR$/feign" />
     <file type="web" url="file://$PROJECT_DIR$/ribbon" />
+    <file type="web" url="file://$PROJECT_DIR$/serviceA" />
+    <file type="web" url="file://$PROJECT_DIR$/serviceB" />
+    <file type="web" url="file://$PROJECT_DIR$/zuul" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
