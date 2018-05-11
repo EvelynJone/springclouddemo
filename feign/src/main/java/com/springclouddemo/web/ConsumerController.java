@@ -1,8 +1,8 @@
 package com.springclouddemo.web;
 
 import com.springclouddemo.client.ComputeClient;
+import com.springclouddemo.client.SubParam;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -26,5 +26,14 @@ public class ConsumerController {
     public Integer add() {
         return computeClient.add(10,20);
     }
+
+    @RequestMapping(value = "/sub",method = RequestMethod.GET)
+    public Integer sub() {
+        SubParam param = new SubParam();
+        param.setA(20);
+        param.setB(10);
+        return computeClient.sub(param);
+    }
+
 
 }

@@ -5,10 +5,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * 功能说明：TODO
@@ -35,5 +32,21 @@ public class ComputeController {
         return r;
     }
 
+    @RequestMapping(value = "/sub",method = RequestMethod.POST)
+    public Integer sub(@RequestBody SubParam a) {
+        ServiceInstance instance = client.getLocalServiceInstance();
+        Integer r = a.getA() - a.getB();
+        logger.info("/sub,host: {} , service_id: {},result:{}",
+                instance.getHost(),instance.getServiceId() ,r);
+        return r;
+    }
 
+    @RequestMapping(value = "/put",method = RequestMethod.PUT)
+    public Integer put(@RequestBody SubParam a) {
+        ServiceInstance instance = client.getLocalServiceInstance();
+        Integer r = a.getA() - a.getB();
+        logger.info("/sub,host: {} , service_id: {},result:{}",
+                instance.getHost(),instance.getServiceId() ,r);
+        return r;
+    }
 }

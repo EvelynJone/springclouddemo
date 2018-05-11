@@ -24,4 +24,10 @@ public class ComputeClientHystrix implements ComputeClient {
         return -9999;
     }
 
+    @Override
+    public Integer sub(SubParam param) {
+        LOG.error("input thing : {}",param.toString());
+        return -9999;
+    }
+
 }
