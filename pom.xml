@@ -21,8 +21,9 @@
 	</modules>
 
     <properties>
-        <springboot.groupId>org.springframework.boot</springboot.groupId>
-        <springcloud.groupId>org.springframework.cloud</springcloud.groupId>
+
+        <capsule.maven.plugin.version>1.5.1</capsule.maven.plugin.version>
+
     </properties>
 	
 <build>  

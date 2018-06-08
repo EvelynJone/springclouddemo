@@ -42,7 +42,7 @@
   </dependencyManagement>
 
 
-  <build>
+ <!-- <build>
     <plugins>
       <plugin>
         <groupId>org.springframework.boot</groupId>
@@ -52,6 +52,22 @@
         </configuration>
       </plugin>
     </plugins>
+  </build>-->
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>com.github.chrisdchristo</groupId>
+        <artifactId>capsule-maven-plugin</artifactId>
+        <version>${capsule.maven.plugin.version}</version>
+
+        <configuration>
+          <appClass>com.springclouddemo.EurekaPeer1Application</appClass>
+          <type>fat</type>
+        </configuration>
+      </plugin>
+    </plugins>
   </build>
+
 
 </project>
